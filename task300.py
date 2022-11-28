@@ -19,9 +19,9 @@ class Sklad:
         info = input('Название товара:')
         print()
 
-    def sort(self):
-        .sort()
+    def SortirovkaPoNazvaniyuMagazina(self):
+            sorted(products)
 
 
-    def __add__(self, other, price):
-        return (self.x + other, self.y + other, self.z + other)
+    def __add__(self, product2):
+        return (self.price + product2.price)
